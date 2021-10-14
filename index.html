@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabbed Component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="tc-container">
+      <div class="buttons-container">
+        <div class="button">
+          <button class="btn btn-first" data-btn="0">01.First Offer</button>
+        </div>
+        <div class="button">
+          <button class="btn btn-second" data-btn="1">02.Second Offer</button>
+        </div>
+        <div class="button">
+          <button class="btn btn-third" data-btn="2">03.Third Offer</button>
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="content-first content" data-num="0">
+          <div class="content-first-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="steelblue"
+              class="bi bi-envelope-open"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.818l5.724 3.465L8 8.917l1.276.766L15 6.218V5.4a1 1 0 0 0-.53-.882l-6-3.2zM15 7.388l-4.754 2.877L15 13.117v-5.73zm-.035 6.874L8 10.083l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738zM1 13.117l4.754-2.852L1 7.387v5.73zM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2z"
+              />
+            </svg>
+          </div>
+          <div class="content-first-text">
+            <h3 class="content-first-h3">First Tab Dummy Headline</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              quod ad eius in inventore officiis ratione omnis sunt quas
+              tempora. Illo eius quas numquam iste sed! Aut temporibus laborum
+              ipsum molestias, voluptas vitae illo cumque corporis consequatur
+              culpa perspiciatis quos dolorem nam. Ipsum, corrupti! Quisquam
+              quis pariatur dolor illum libero.
+            </p>
+          </div>
+        </div>
+        <div class="content-second content" data-num="1">
+          <div class="content-second-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="orangered"
+              class="bi bi-bank"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z"
+              />
+            </svg>
+          </div>
+          <div class="content-second-text">
+            <h3 class="content-second-h3">Second Tab Dummy Headline</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              quod ad eius in inventore officiis ratione omnis sunt quas
+              tempora. Illo eius quas numquam iste sed! Aut temporibus laborum
+              ipsum molestias, voluptas vitae illo cumque corporis consequatur
+              culpa perspiciatis quos dolorem nam. Ipsum, corrupti! Quisquam
+              quis pariatur dolor illum libero. Lorem ipsum dolor sit amet
+              consectetur adipisicing. Lorem ipsum dolor, sit amet consectetur
+              adipisicing.
+            </p>
+          </div>
+        </div>
+        <div class="content-third content" data-num="2">
+          <div class="content-third-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="green"
+              class="bi bi-briefcase"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"
+              />
+            </svg>
+          </div>
+          <div class="content-third-text">
+            <h3 class="content-third-h3">Third Tab Dummy Headline</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+              quod ad eius in inventore officiis ratione omnis sunt quas
+              tempora. Voluptas vitae illo cumque corporis consequatur culpa
+              perspiciatis quos dolorem nam. Ipsum, corrupti! Quisquam quis
+              pariatur dolor illum libero. Lorem ipsum dolor sit amet
+              consectetur adipisicing. Lorem ipsum dolor, sit amet consectetur
+              adipisicing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
