@@ -39,6 +39,8 @@ button {
   padding: 1rem 2.5rem;
   font-size: 2rem;
   cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 4px;
 }
 
 .hidden {
@@ -48,18 +50,14 @@ button {
 .btn-active {
   transform: translateY(-0.8rem);
 }
-.btn-active-0 {
-  color: #f4f4f4;
-  background: steelblue;
-}
 
 .btn-first {
   color: steelblue;
   border: 2px solid steelblue;
-  border-radius: 4px;
-  transition: all 0.2s;
 }
-.btn-first:hover {
+
+.btn-first:hover,
+.btn-0-active {
   color: #f4f4f4;
   background: steelblue;
 }
@@ -67,11 +65,10 @@ button {
 .btn-second {
   color: orangered;
   border: 2px solid orangered;
-  border-radius: 4px;
-  transition: all 0.2s;
 }
 
-.btn-second:hover {
+.btn-second:hover,
+.btn-1-active {
   color: #f4f4f4;
   background: orangered;
 }
@@ -79,11 +76,10 @@ button {
 .btn-third {
   color: green;
   border: 2px solid green;
-  border-radius: 4px;
-  transition: all 0.2s;
 }
 
-.btn-third:hover {
+.btn-third:hover,
+.btn-2-active {
   color: #f4f4f4;
   background: green;
 }
@@ -98,7 +94,9 @@ button {
   overflow: hidden;
   padding: 1rem;
   border-radius: 0.5rem;
+  transition: all 0.2s;
 }
+
 .buttons-container {
   height: 5rem;
   width: 100%;
@@ -124,7 +122,7 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  transition: all 0.2s;
+  transition: all 0.3s;
 }
 
 .content-first-h3 {
