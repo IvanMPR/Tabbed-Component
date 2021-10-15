@@ -130,29 +130,23 @@ button {
 .content-first-h3 {
   color: steelblue;
 }
-.content-first-icon {
-  margin-right: 5rem;
-}
-.content-first-text {
-  width: 70%;
-  height: 100%;
-}
+
 .content-second-h3 {
   color: orangered;
 }
-.content-second-icon {
-  margin-right: 5rem;
-}
-.content-second-text {
-  width: 70%;
-  height: 100%;
-}
+
 .content-third-h3 {
   color: green;
 }
+
+.content-first-icon,
+.content-second-icon,
 .content-third-icon {
   margin-right: 5rem;
 }
+
+.content-first-text,
+.content-second-text,
 .content-third-text {
   width: 70%;
   height: 100%;
