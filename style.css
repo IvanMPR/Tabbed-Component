@@ -149,3 +149,30 @@ button {
   width: 70%;
   height: 100%;
 }
+
+@media (max-width: 576px) {
+  html {
+    font-size: 25%;
+  }
+  .btn-second {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  html {
+    font-size: 45%;
+  }
+  .btn-second {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+  .btn-second {
+    font-size: 1.9rem;
+  }
+}
