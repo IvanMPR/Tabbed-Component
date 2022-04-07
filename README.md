@@ -5,5 +5,5 @@
 <img src="img/screenshots/screenshot3.jpg" width="100%">
 <br>
 
-Another very common element on web pages, tabbed component. 
+Another very common element on web pages, tabbed component... 
 
